@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat App</title>
-    <link rel="stylesheet" href="./styte.css">
-</head>
+<?php
+include_once "part/header.php"
+?>
 
 <body>
     <div class="wrapper">
@@ -42,7 +36,7 @@
                     <input type="button" value="Bắt đầu">
                 </div>
             </form>
-            <div class="link">Đã có tài khoản <a href="login.html">Đăng nhập ngay</a></div>
+            <div class="link">Đã có tài khoản <a href="login.php">Đăng nhập ngay</a></div>
         </section>
     </div>
 
