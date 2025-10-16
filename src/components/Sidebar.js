@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   const { isOpen, handleClose } = useContext(SidebarContext)
-  const { cart, clearCart, total } = useContext(CartContext)
+  const { cart, clearCart, total, itemAmount } = useContext(CartContext)
 
   return (
     <div
@@ -18,7 +18,7 @@ const Sidebar = () => {
     >
       <div className='flex items-center justify-between py-6 border-b'>
         <div className='uppercase text-sm font-semibold'>
-          Shopping Bag (0)
+          Shopping Bag ({itemAmount})
         </div>
         {/* icon */}
         <div
@@ -48,11 +48,16 @@ const Sidebar = () => {
         </div>
         <Link
           to={'/'}
-          className='bg-primary flex p-4 justify-center items-center text-white w-full font-medium'
+          className='bg-gray-200 flex p-4 justify-center items-center text-primary w-full font-medium'
         >
           View cart
         </Link>
-        <Link>Checkout</Link>
+        <Link
+          to={'/'}
+          className='bg-primary flex p-4 justify-center items-center text-white w-full font-medium'
+        >
+          Checkout
+        </Link>
       </div>
     </div>
   )
