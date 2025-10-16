@@ -1,7 +1,5 @@
 # 🛒 E-COMMERCE WEB (AUTUMN STORE)
 
-![GitHub stars](./src/img/capture.png)
-
 ## ✨ Key Features
 
 * **Shopping Cart:** Add, remove, and update product quantities.
