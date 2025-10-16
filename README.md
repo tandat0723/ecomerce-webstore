@@ -1,6 +1,6 @@
 # 🛒 E-COMMERCE WEB (AUTUMN STORE)
 
-[![GitHub stars](./src/img/capture.png)
+![GitHub stars](./src/img/capture.png)
 
 ## ✨ Key Features
 
